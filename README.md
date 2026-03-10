@@ -1,24 +1,23 @@
 # ❤️ Terminal Love (`terminal-love`)
 
-ターミナル上で鼓動し、あなたのPCの「生命力」を可視化する新感覚のシステムモニターです。
-CPU温度とメモリ使用率を、波打つ心臓（ハート）のAA（アスキーアート）としてスタイリッシュに表現します。
+[![AUR version](https://img.shields.io/aur/version/terminal-love-git)](https://aur.archlinux.org/packages/terminal-love-git)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## ✨ 特徴 (Features)
+A stylish, interactive system monitor for your terminal. It visualizes your PC's "life force" using a beating ASCII heart that reacts to CPU temperature and memory usage.
 
-- **🌡️ CPU温度シンクロ**: CPUの温度に合わせて心臓の色がシームレスに変化します（低温:緑 → 中温:黄 → 高温:赤）。
-- **🧠 メモリゲージ**: メモリの使用率に応じて、心臓の中の「液体」が下から満たされていきます。
-- **🌊 インタラクティブな波紋エフェクト**: ターミナル上でマウスカーソルを動かすと、その軌跡に合わせて空間がリアルタイムに歪みます。
-- **📊 ライブステータスバー**: 画面左上にリアルタイムの数値（%と℃）と、現在の温度を示す可動式インジケーター（▲）を表示します。
+ターミナル上で鼓動し、PCの「生命力」を可視化する新感覚のシステムモニターです。
 
-## 🚀 インストール (Installation)
+## ✨ Features (特徴)
 
-### Arch Linux (AUR)
-現在準備中です！（近日公開予定）
-### マニュアルインストール (Linux全般)
-Gitでクローンして、パスの通ったディレクトリに配置するだけで使用できます。
+- **🌡️ CPU Temp Sync**: The heart's color changes based on CPU temperature (Green 🟢 → Yellow 🟡 → Red 🔴).
+- **🧠 Memory Gauge**: The heart "fills up" with liquid as your RAM usage increases.
+- **🌊 Interactive Ripple**: Move your mouse cursor to create real-time space distortion around the heart.
+- **📊 Status Dashboard**: A built-in live HUD showing exact percentages, temperatures, and a visual gradient scale.
+
+## 🚀 Installation (インストール)
+
+### Arch Linux (Recommended)
+You can install the official AUR package using your favorite AUR helper:
 
 ```bash
-git clone [https://github.com/kokorodonguri/terminal-love.git](https://github.com/kokorodonguri/terminal-love.git)
-cd terminal-love
-chmod +x terminal-love
-sudo cp terminal-love /usr/local/bin/
+yay -S terminal-love-git
